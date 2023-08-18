@@ -26,7 +26,7 @@ function makeGrid(size){
 slider.addEventListener('input', () => {changeSlider()});
 
 function changeSlider(){
-  sliderValueDisplay.textContent = `Value: ${slider.value}`
+  sliderValueDisplay.textContent = `${slider.value} x ${slider.value}`
   container.innerHTML = '';
   makeGrid(slider.value);
 }

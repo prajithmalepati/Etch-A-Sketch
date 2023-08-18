@@ -9,33 +9,33 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #f0f0f0;
+    background-color: #333;
+    color: #fff;
 }
 
 .title {
     margin-bottom: 20px;
-    color: #333;
 }
 
 #container {
     display: grid;
-    border: 2px solid #333;
+    border: 2px solid #555;
     width: 80vmin;
     height: 80vmin;
     max-width: 100%;
-    background-color: white;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #222;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .grid-square {
-    border: 1px solid #ddd;
-    background-color: #fff;
+    border: 1px solid #444;
+    background-color: #333;
     transition: background-color 0.1s ease-in-out;
     cursor: pointer;
 }
 
 .grid-square:hover {
-    background-color: #333;
+    background-color: #555;
 }
 
 .slider-container {
