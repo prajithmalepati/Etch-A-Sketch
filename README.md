@@ -42,7 +42,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Enjoy drawing and have fun with the Etch A Sketch app! If you find this project useful or interesting, consider giving it a star and sharing it with others. If you have any questions, feel free to reach out.
 
-Created by [Your Name](https://github.com/your-username)
+Created by [Prajith Malepati](https://github.com/prajithmalepati)
 ```
 
-Make sure to replace `your-username` with your actual GitHub username, and customize the content as needed to match your project's details. You can also include a screenshot (`screenshot.png`) to showcase how the app looks.
