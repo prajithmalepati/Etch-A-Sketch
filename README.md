@@ -38,5 +38,4 @@ Contributions are welcome! If you have any ideas, suggestions, or bug reports, f
 Enjoy drawing and have fun with the Etch A Sketch app! If you find this project useful or interesting, consider giving it a star and sharing it with others. If you have any questions, feel free to reach out.
 
 Created by [Prajith Malepati](https://github.com/prajithmalepati)
-```
 
