@@ -20,3 +20,4 @@ function changeSlider(){
   makeGrid(slider.value);
 }
 
+makeGrid(16)
