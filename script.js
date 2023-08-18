@@ -9,6 +9,9 @@ function makeGrid(size){
     const gridSquare = document.createElement('div');
     gridSquare.classList.add('grid-square');
     container.appendChild(gridSquare)
+    gridSquare.addEventListener('mouseover',()=>{
+      gridSquare.style.backgroundColor='black';
+    })
   }
 }
 
@@ -21,3 +24,10 @@ function changeSlider(){
 }
 
 makeGrid(16)
+
+resetBtn.addEventListener('click',gridReset);
+
+function gridReset(){
+  container.innerHTML='';
+  makeGrid(slider.value);
+}
