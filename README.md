@@ -34,10 +34,6 @@ Welcome to Etch A Sketch! This is a simple web application that allows you to cr
 
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, feel free to [open an issue](https://github.com/prajithmalepati/Etch-A-Sketch/issues) or submit a pull request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 
 Enjoy drawing and have fun with the Etch A Sketch app! If you find this project useful or interesting, consider giving it a star and sharing it with others. If you have any questions, feel free to reach out.
 
