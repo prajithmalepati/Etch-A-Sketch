@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    
+    <h1 class = "title"> Etch A Sketch</h1>
+    <div id = "container"></div>
+    <button id = "resetBtn">Reset</button>
+    <div class = "slider">
+        <p>5</p>
+        <input type="range" id="slider" min="5" max="64" step="1" value="16">
+        <p>64</p>
+    </div>
+    <p id="sliderValue">Value: 16</p>
 </body>
 </html>
