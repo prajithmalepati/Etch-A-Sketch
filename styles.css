@@ -1,4 +1,5 @@
-body{
+
+body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -10,27 +11,45 @@ body{
     background-color: #f0f0f0;
 }
 
-.title{
+.title {
     margin-bottom: 20px;
+    color: #333;
 }
 
 #container {
     display: grid;
-    border: 1px solid #ccc;
-    width: 80vmin; /* Adjust this value as needed */
-    height: 80vmin; /* Adjust this value as needed */
+    border: 2px solid #333;
+    width: 80vmin;
+    height: 80vmin;
     max-width: 100%;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.grid-square{
+.grid-square {
     border: 1px solid #ddd;
     background-color: #fff;
     transition: background-color 0.1s ease-in-out;
     cursor: pointer;
 }
 
-.slider{
+.grid-square:hover {
+    background-color: #333;
+}
+
+.slider-container {
     display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.slider-container p {
+    margin: 0 10px;
+    color: #333;
+}
+
+#slider {
+    width: 150px;
 }
 
 #resetBtn {
@@ -41,9 +60,9 @@ body{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  #resetBtn:hover {
+    transition: background-color 0.1s ease-in-out;
+}
+
+#resetBtn:hover {
     background-color: #0056b3;
-  }
+}
