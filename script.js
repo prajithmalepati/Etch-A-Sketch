@@ -37,6 +37,7 @@ resetBtn.addEventListener('click',gridReset);
 
 function gridReset(){
   container.innerHTML='';
+  isDrawing = false;
   makeGrid(slider.value);
 }
 
