@@ -1,6 +1,6 @@
 # Etch A Sketch
 
-Welcome to Etch A Sketch! This is a simple web application that allows you to create drawings on a grid, just like the classic Etch A Sketch toy.[Live Demo] (https://prajithmalepati.github.io/Etch-A-Sketch/).
+Welcome to Etch A Sketch! This is a simple web application that allows you to create drawings on a grid, just like the classic Etch A Sketch toy.[Live Demo](https://prajithmalepati.github.io/Etch-A-Sketch/).
 
 ## Features
 
